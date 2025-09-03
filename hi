@@ -1,0 +1,17 @@
+# 🚀 Microsoft Learn Course Completion Bot
+
+Automate the completion of Microsoft Learn modules using **Selenium** for browser automation and **Google Gemini AI** for solving multiple-choice questions (MCQs).  
+This script navigates module pages, selects answers, and completes the courses hands-free.
+
+---
+
+## 🔥 Features
+✅ Automates **Microsoft Learn module navigation**  
+✅ Uses **Google Gemini AI** to answer MCQs intelligently  
+✅ Scrolls and clicks **Next** & **Finish** buttons automatically  
+✅ Fully configurable with your own **Gemini API key**  
+✅ Works with **multiple course modules** in a single run  
+
+---
+
+## 📂 Project Structure
