@@ -9,7 +9,7 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 from webdriver_manager.chrome import ChromeDriverManager
 
 # === GEMINI API SETUP ===
-genai.configure(api_key="AIzaSyDcs-EpZ82agwswd7qZuEYq0W-18v80HJw")
+genai.configure(api_key="your_api_key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def get_gemini_answer(question, options):
@@ -123,3 +123,4 @@ for i, link in enumerate(module_links):
 
 driver.quit()
 print("All modules completed ✅")
+
